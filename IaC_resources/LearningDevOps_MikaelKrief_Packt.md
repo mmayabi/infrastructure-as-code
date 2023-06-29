@@ -15,10 +15,12 @@ This book is divided into 17 chapters that are organized into 5 sections, making
 - Chapter 1, The DevOps Culture and Infrastructure as Code practices
 
     This chapter explains the concepts of CI/CD and IaC, providing a clear and detailed overview with helpful diagrams to aid understanding. While experts may find the material straightforward and can review it quickly, those who are new to the concepts should read it carefully to gain a thorough understanding.
+
     topics in this chapter:
-    -- Getting started with DevOps
-    -- Implementing CI/CD and continuous deployment
-    -- Understanding IaC practices
+
+    - Getting started with DevOps
+    - Implementing CI/CD and continuous deployment
+    - Understanding IaC practices
 
 - Chapter 2, Provisioning Cloud Infrastructure with Terraform
 - Chapter 3, Using Ansible to Configure IaaS Infrastructure
