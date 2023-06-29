@@ -32,7 +32,26 @@ This book is divided into 17 chapters that are organized into 5 sections, making
     - Protecting the state file with a remote backend
 
 - Chapter 3, Using Ansible to Configure IaaS Infrastructure
+    The second piece is the third chapter, which provides a good review of Ansible. It covers concepts such as static and dynamic inventories, playbooks, and vault. While this chapter is a good starting point, it may not provide enough detail for those who are already experienced with Ansible. If you are an expert with Ansible, you can just review the 'Using a Dynamic Inventory for an Azure Infrastructure' section for a quick overview. Topics in this chapter:
+
+    - Installing Ansible
+    - Creating an Ansible inventory
+    - Executing the first playbook
+    - Executing Ansible
+    - Protecting data with Ansible Vault
+    - Using a dynamic inventory for an Azure infrastructure
+
 - Chapter 4, Optimizing Infrastructure Deployment with Packer
+    This chapter is designed to help you improve your Infrastructure as Code (IaC) architecture. In my opinion, this book covers Ansible and Terraform better than Packer, but it does provide a good overview for readers to follow up with additional resources.
+    This chapter does not cover the remote integration of Packer and Ansible. Topics in this chapter:
+    
+    - An overview of Packer
+    - Creating Packer templates using scripts
+    - Creating Packer templates using Ansible
+    - Executing Packer
+    - Writing Packer templates with HCL format
+    - Using images created by Packer with Terraform
+
 - Chapter 5, Authoring the Development Environment with Vagrant
 
 tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer]
