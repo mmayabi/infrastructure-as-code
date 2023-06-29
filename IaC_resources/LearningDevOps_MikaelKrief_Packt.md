@@ -14,15 +14,23 @@ This book is divided into 17 chapters that are organized into 5 sections, making
 
 - Chapter 1, The DevOps Culture and Infrastructure as Code practices
 
-    This chapter explains the concepts of CI/CD and IaC, providing a clear and detailed overview with helpful diagrams to aid understanding. While experts may find the material straightforward and can review it quickly, those who are new to the concepts should read it carefully to gain a thorough understanding.
-
-    topics in this chapter:
+    This chapter explains the concepts of CI/CD and IaC, providing a clear and detailed overview with helpful diagrams to aid understanding. While experts may find the material straightforward and can review it quickly, those who are new to the concepts should read it carefully to gain a thorough understanding. Topics in this chapter:
 
     - Getting started with DevOps
     - Implementing CI/CD and continuous deployment
     - Understanding IaC practices
 
 - Chapter 2, Provisioning Cloud Infrastructure with Terraform
+
+    This chapter is the first piece of the puzzle of this book, which is explained in Chapter 1. This chapter is designed to help you become familiar with Terraform. However, if you want to learn more and use Terraform in practice, you will need to consult additional resources. The Terraform examples are on the Azure cloud. Topics in this chapter:
+
+    - Installing Terraform (manually and by script on all OSs)
+    - Configuring Terraform for Azure
+    - Writing a Terraform script to deploy an Azure infrastructure
+    - Running Terraform for deployment
+    - Understanding the Terraform life cycle with different command-line options
+    - Protecting the state file with a remote backend
+
 - Chapter 3, Using Ansible to Configure IaaS Infrastructure
 - Chapter 4, Optimizing Infrastructure Deployment with Packer
 - Chapter 5, Authoring the Development Environment with Vagrant
