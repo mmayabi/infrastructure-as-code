@@ -32,6 +32,7 @@ This book is divided into 17 chapters that are organized into 5 sections, making
     - Protecting the state file with a remote backend
 
 - Chapter 3, Using Ansible to Configure IaaS Infrastructure
+
     The second piece is the third chapter, which provides a good review of Ansible. It covers concepts such as static and dynamic inventories, playbooks, and vault. While this chapter is a good starting point, it may not provide enough detail for those who are already experienced with Ansible. If you are an expert with Ansible, you can just review the 'Using a Dynamic Inventory for an Azure Infrastructure' section for a quick overview. Topics in this chapter:
 
     - Installing Ansible
@@ -42,6 +43,7 @@ This book is divided into 17 chapters that are organized into 5 sections, making
     - Using a dynamic inventory for an Azure infrastructure
 
 - Chapter 4, Optimizing Infrastructure Deployment with Packer
+
     This chapter is designed to help you improve your Infrastructure as Code (IaC) architecture. In my opinion, this book covers Ansible and Terraform better than Packer, but it does provide a good overview for readers to follow up with additional resources.
     This chapter does not cover the remote integration of Packer and Ansible. Topics in this chapter:
     
@@ -54,7 +56,13 @@ This book is divided into 17 chapters that are organized into 5 sections, making
 
 - Chapter 5, Authoring the Development Environment with Vagrant
 
-tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer]
+    If you want to learn Vagrant, start with this chapter. Learn step by step with good examples. It helps you to have a local lab for your test in IaC. Topics in this chapter:
+
+    - Installing Vagrant
+    - Writing a Vagrant configuration file
+    - Provisioning a local VM with the Vagrant CLI
+
+tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer,Vagrant]
 
 #### Section 2: DevOps CI/CD Pipeline
 
@@ -76,5 +84,7 @@ tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer]
 - **Other Works:** In 2019, he wrote the first edition of this book, and in 2020, he wrote Terraform Cookbook (Packt Publishing), and also contributes to many public projects, writes blogs and books, and speaks at conferences.
 
 ### Personal Experience
+
+- In this book, Ansible is categorized as a declarative tool, but in most other resources, Ansible is considered to be an imperative tool. In my opinion, Ansible can be used in a declarative way, but it is fundamentally an imperative tool.
 
 ### Recommendation
