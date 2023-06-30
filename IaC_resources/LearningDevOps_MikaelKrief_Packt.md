@@ -66,6 +66,18 @@ tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer,Vagr
 
 #### Section 2: DevOps CI/CD Pipeline
 
+- Chapter 6, Managing Your Source Code with Git
+    This chapter provides a thorough introduction to Git and its fundamentals. Additionally, it includes a useful review of working with Azure DevOps as a remote Git repository. The chapter covers Git client installation but does not cover Git server installation. Thanks for covering GitFlow too. Topics in this chapter:
+
+    - Overviewing Git and its principal command lines
+    - Understanding the Git process and Gitflow pattern
+
+- Chapter 7, Continuous Integration and Continuous Deployment
+
+- Chapter 8, Deploying Infrastructure as Code with CI/CD Pipelines
+
+tags: [git, gitflow, Azure DevOps]
+
 #### Section 3: Containerized Microservices with Docker and Kubernetes  
 
 #### Section 4: Testing Your Application
