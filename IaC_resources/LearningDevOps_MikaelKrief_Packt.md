@@ -67,6 +67,7 @@ tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer,Vagr
 #### Section 2: DevOps CI/CD Pipeline
 
 - Chapter 6, Managing Your Source Code with Git
+
     This chapter provides a thorough introduction to Git and its fundamentals. Additionally, it includes a useful review of working with Azure DevOps as a remote Git repository. The chapter covers Git client installation but does not cover Git server installation. Thanks for covering GitFlow too. Topics in this chapter:
 
     - Overviewing Git and its principal command lines
@@ -74,11 +75,29 @@ tags: [CI/CD, Continuous_Deployment, IaC, Terraform, Azure, Ansible, Packer,Vagr
 
 - Chapter 7, Continuous Integration and Continuous Deployment
 
+    This chapter covers CI/CD in more detail than Chapter 1. You can find starting points for working with Jenkins, Azure Pipelines, and GitLab CI. If you want to work in advance with Jenkins and GitLab CI, you will need additional resources. The package managers concept and tools are also described, including NuGet, Nexus Repository OSS, and Azure Artifacts. Topics in this chapter:
+
+    - CI/CD principles
+    - Using a package manager in the CI/CD process
+    - Using Jenkins for CI/CD implementation
+    - Using Azure Pipelines for CI/CD
+    - Using GitLab CI
+
 - Chapter 8, Deploying Infrastructure as Code with CI/CD Pipelines
 
-tags: [git, gitflow, Azure DevOps]
+    The author plans to include this chapter to review and apply the knowledge gained from previous chapters, and to demonstrate how to use a combination of Packer, Terraform, and Ansible to create a CI/CD pipeline for implementing IaC. Topics in this chapter:
+
+    - Write a Azure pipeline in YAML to generate an image with Packer
+    - Write a YAML pipeline to provision a Virtual Machine (VM) with Terraform
+    - Complete it with the execution of Ansible to install nginx on VM
+
+tags: [git, gitflow, Azure DevOps, CI/CD, Azure pipeline, Jenkins, GitLab CI, package manager, NuGet, Nexus, Azure Artifacts]
 
 #### Section 3: Containerized Microservices with Docker and Kubernetes  
+
+- Chapter 9, Containerizing Your Application with Docker
+
+- Chapter 10, Managing Containers Effectively with Kubernetes
 
 #### Section 4: Testing Your Application
 

@@ -81,5 +81,5 @@ TODO: [Git Branching Strategies](https://tilburgsciencehub.com/building-blocks/c
 - Git Flow:
 
     ref: [Git-Flow Github](https://github.com/nvie/gitflow) / [Learning DevOps](../../IaC_resources/LearningDevOps_MikaelKrief_Packt.md) page 186
-    
+
 ## Learning Resources
