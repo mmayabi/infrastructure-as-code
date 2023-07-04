@@ -97,7 +97,22 @@ tags: [git, gitflow, Azure DevOps, CI/CD, Azure pipeline, Jenkins, GitLab CI, pa
 
 - Chapter 9, Containerizing Your Application with Docker
 
+    If you're not familiar with the concept of containers, it's recommended that you familiarize yourself with it before proceeding with this chapter. This chapter provides a detailed guide on Docker installation and commands, which you can use to get started with using Docker. You can find valuable information about Azure Container Registry (ACR) and Azure Container Instances (ACI). In my view, deploying a container to ACI with a CI/CD pipeline by using the Terraform is the goal of this chapter.
+
+    - Installing Docker
+    - Creating a Dockerfile
+    - Building and running a container on a local machine
+    - Pushing an image to Docker Hub
+    - Pushing a Docker image to a private registry (ACR)
+    - Deploying a container to ACI with a CI/CD pipeline 
+    - Writing the Terraform code for ACI
+    - Using Docker for running command-line tools (such as Terraform and Ansible)
+    - Getting started with Docker Compose
+    - Deploying Docker Compose containers in ACI
+
 - Chapter 10, Managing Containers Effectively with Kubernetes
+
+tags: [docker, dockerhub, Azure-Container-Registry, ACR, Azure-Container-Instance, ACI, Terraform, Kubernetes]
 
 #### Section 4: Testing Your Application
 
