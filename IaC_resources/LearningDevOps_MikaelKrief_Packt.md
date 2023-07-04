@@ -97,7 +97,7 @@ tags: [git, gitflow, Azure DevOps, CI/CD, Azure pipeline, Jenkins, GitLab CI, pa
 
 - Chapter 9, Containerizing Your Application with Docker
 
-    If you're not familiar with the concept of containers, it's recommended that you familiarize yourself with it before proceeding with this chapter. This chapter provides a detailed guide on Docker installation and commands, which you can use to get started with using Docker. You can find valuable information about Azure Container Registry (ACR) and Azure Container Instances (ACI). In my view, deploying a container to ACI with a CI/CD pipeline by using the Terraform is the goal of this chapter.
+    If you're not familiar with the concept of containers, it's recommended that you familiarize yourself with it before proceeding with this chapter. This chapter provides a detailed guide on Docker installation and commands, which you can use to get started with using Docker. You can find valuable information about Azure Container Registry (ACR) and Azure Container Instances (ACI). In my view, deploying a container to ACI with a CI/CD pipeline by using the Terraform is the goal of this chapter. Topics in this chapter:
 
     - Installing Docker
     - Creating a Dockerfile
@@ -112,9 +112,25 @@ tags: [git, gitflow, Azure DevOps, CI/CD, Azure pipeline, Jenkins, GitLab CI, pa
 
 - Chapter 10, Managing Containers Effectively with Kubernetes
 
-tags: [docker, dockerhub, Azure-Container-Registry, ACR, Azure-Container-Instance, ACI, Terraform, Kubernetes]
+    This chapter provides an introduction to Kubernetes and Helm. Also, it covers the installation of Kubernetes locally for testing purposes very well. However, there is only a brief mention of creating an AKS with Terraform. For more information on creating a CI/CD pipeline for Kubernetes with Azure Pipelines, useful links are provided. Additionally, a list of tools for monitoring applications and Kubernetes is given, including the kubectl command line, Lens, Prometheus, and Grafana, albeit without detailed information. Topics in this chapter:
+
+    - Installing Kubernetes
+    - A first example of Kubernetes application deployment
+    - Using Helm as a package manager
+    - Publishing a Helm chart in a private registry (ACR)
+    - Using AKS
+    - Creating a CI/CD pipeline for Kubernetes with Azure Pipelines
+    - Monitoring applications and metrics in Kubernetes
+
+tags: [docker, dockerhub, Azure-Container-Registry, ACR, Azure-Container-Instance, ACI, Terraform, Kubernetes, Helm, AKS, CI/CD]
 
 #### Section 4: Testing Your Application
+
+- Chapter 11, Testing APIs with Postman
+
+- Chapter 12, Static Code Analysis with SonarQube
+
+- Chapter 13, Security and Performance Tests
 
 #### Section 5: Taking DevOps Further/More on DevOps
 
