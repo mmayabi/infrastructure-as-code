@@ -128,6 +128,8 @@ tags: [docker, dockerhub, Azure-Container-Registry, ACR, Azure-Container-Instanc
 
 - Chapter 11, Testing APIs with Postman
 
+    If you are not a developer, this chapter is for you.
+
 - Chapter 12, Static Code Analysis with SonarQube
 
 - Chapter 13, Security and Performance Tests
