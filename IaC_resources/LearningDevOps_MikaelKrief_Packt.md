@@ -128,11 +128,34 @@ tags: [docker, dockerhub, Azure-Container-Registry, ACR, Azure-Container-Instanc
 
 - Chapter 11, Testing APIs with Postman
 
-    If you are not a developer, this chapter is for you.
+    If you are not a developer, this chapter is for you. You can become familiar with Postman, API testing, and the Newman automated tool for testing. At the end of this chapter, you can find a useful manual for integrating Newman with Azure Pipeline for CI/CD purposes. If you use other tools like GitLab CI or Jenkins, you can refer to Chapter 7 of this book for guidance on integrating with those tools. Topics in this chapter:
+
+    - Creating a Postman collection
+    - Using environments and variables
+    - Writing Postman tests
+    - Executing tests locally
+    - Understanding the Newman concept
+    - Preparing Postman collections for Newman
+    - Running the Newman command line
+    - Integration of Newman in the CI/CD pipeline process
 
 - Chapter 12, Static Code Analysis with SonarQube
 
+    Static code analysis tools can be used to analyze the code for various quality and security issues, such as code smells, bugs, vulnerabilities, and more. There are two main types of static code analysis: syntax analysis and semantic analysis. In this chapter, you can learn about two tools: SonarLint for local code analysis and SonarQube for integrating code analysis into a CI process. The integration with a CI process is achieved using tools such as Azure Pipelines in this chapter. Topics in this chapter:
+
+    - Exploring SonarQube
+    - Installing SonarQube (Methods: Manual, via Docker, in Azure and on Kubernetes)
+    - Real-time analysis with SonarLint
+    - Executing SonarQube in a CI process
+
 - Chapter 13, Security and Performance Tests
+
+    This chapter explains the Open Web Application Security Project (OWASP) recommendations and introduces the Zed Attack Proxy (ZAP). It also provides some hints on how to integrate ZAP into a continuous integration (CI) process (not in details). Additionally, the chapter explains how to conduct performance tests using Postman, but notes that other tools may work better for this purpose. While this chapter may not be as comprehensive as others, it still provides valuable information. Topics in this chapter:
+
+    - Applying web security and penetration testing with ZAP
+    - Running performance tests with Postman
+
+tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analysis, SonarQube, SonarLint, OWASP, ZAP, WAF, Security]
 
 #### Section 5: Taking DevOps Further/More on DevOps
 
