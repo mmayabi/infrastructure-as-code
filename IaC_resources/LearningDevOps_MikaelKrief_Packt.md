@@ -159,6 +159,19 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
 
 #### Section 5: Taking DevOps Further/More on DevOps
 
+- Chapter 14, Security in the DevOps Process with DevSecOps
+    The chapter starts with a brief explanation of DevSecOps, followed by an introduction to InSpec, a tool used to write tests for infrastructure compliance. The chapter also covers various projects for saving secrets, such as KeePass, LastPass, and Ansible Vault. Additionally, the chapter provides a detailed explanation of HashiCorp Vault. The installation methods for both InSpec and HashiCorp Vault are also explained. Topics in this chapter:
+
+    - Testing Azure infrastructure compliance with Chef InSpec
+    - Keeping sensitive data safe with HashiCorp Vault
+
+- Chapter 15, Reducing Deployment Downtime
+
+- Chapter 16, DevOps for Open Source Projects
+
+- Chapter 17, DevOps Best Practices
+
+tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault]
 ### Key Features
 
 - F1
