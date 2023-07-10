@@ -167,7 +167,7 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
 
 - Chapter 15, Reducing Deployment Downtime
 
-     This chapter presents the practice of blue-green deployment, along with its concepts and patterns, such as the canary release and dark launch patterns. The canary release pattern depends on infrastructure, while the dark launch pattern is implemented in the application code. For impemting the canary release pattern on Azure is explained App Service with slots and Azure Traffic Manager. The chapter concludes with an explanation of the implementation of feature flags. Several open source tools such as RimDev.FeatureFlags, Flagr, Unleash, Togglz, and Flip are mentioned, along with some cloud solutions such as LaunchDarkly, Rollout, Featureflag.tech, and Featureflow. Topics in this chapter:
+     This chapter presents the practice of blue-green deployment, along with its concepts and patterns, such as the canary release and dark launch patterns. The canary release pattern depends on infrastructure, while the dark launch pattern is implemented in the application code. For implementing of the canary release pattern on Azure is explained App Service with slots and Azure Traffic Manager. The chapter concludes with an explanation of the implementation of feature flags. Several open source tools such as RimDev.FeatureFlags, Flagr, Unleash, Togglz, and Flip are mentioned, along with some cloud solutions such as LaunchDarkly, Rollout, Featureflag.tech, and Featureflow. Topics in this chapter:
 
     - Reducing deployment downtime with Terraform
     - Understanding blue-green deployment concepts and patterns
@@ -180,7 +180,8 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
 
 - Chapter 17, DevOps Best Practices
 
-tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault]
+tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault, blue-green, canary release, dark launch, feature flag]
+
 ### Key Features
 
 - F1
