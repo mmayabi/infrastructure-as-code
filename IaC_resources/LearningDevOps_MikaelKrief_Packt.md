@@ -160,6 +160,7 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
 #### Section 5: Taking DevOps Further/More on DevOps
 
 - Chapter 14, Security in the DevOps Process with DevSecOps
+
     The chapter starts with a brief explanation of DevSecOps, followed by an introduction to InSpec, a tool used to write tests for infrastructure compliance. The chapter also covers various projects for saving secrets, such as KeePass, LastPass, and Ansible Vault. Additionally, the chapter provides a detailed explanation of HashiCorp Vault. The installation methods for both InSpec and HashiCorp Vault are also explained. Topics in this chapter:
 
     - Testing Azure infrastructure compliance with Chef InSpec
@@ -177,6 +178,16 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
     - Using the LaunchDarkly solution
 
 - Chapter 16, DevOps for Open Source Projects
+
+    This chapter is different from all the others in this book. This book introduces various open-source projects. We can use and share our ideas with others for collaboration. Collaboration is key to enjoyable improvement. You can find a really good manual for collaborating and sharing open-source projects on GitHub, as well as how to analyze them using SonarCloud and WhiteSource Bolt. Topics in this chapter:
+
+    - Storing source code in GitHub
+    - Contributing to open source projects using pull requests
+    - Managing the changelog file and release notes
+    - Sharing binaries in GitHub releases
+    - Getting started with GitHub Actions
+    - Analyzing code with SonarCloud
+    - Detecting security vulnerabilities with WhiteSource Bolt
 
 - Chapter 17, DevOps Best Practices
 
