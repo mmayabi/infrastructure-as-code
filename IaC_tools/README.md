@@ -15,7 +15,13 @@ This section covers the various tools available for implementing IaC, such as Te
 - Provisioning tools
     - Terraform, CloudFormation, and OpenStack Heat
 
+## Choosing the right tool
 
+- the knowledge of teams
+- the company model
+- the financial system
+
+resource: [LearningDevOps, pages 499-500](../IaC_resources/LearningDevOps_MikaelKrief_Packt.md)
 
 ## Additional Resources
 
