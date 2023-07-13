@@ -5,6 +5,14 @@
 **Author:** [Mikael Krief]  
 **Publisher:** [Packt Publishing Ltd]  
 **Edition:** [Second - 2022]  
+**type** [book]
+
+### Recommendation
+
+- This book can serve as a useful handbook. You can review it in its entirety in about 15-20 hours, and then, as needed, read specific chapters more deeply and practice what you learn.
+- If you want to test some of the practices outlined in the book and conduct further research on the links introduced in the book, it may take more than 30 hours to complete all the related activities.
+- If you are new to this subject, this book can be a good starting point for you. It can help you become familiar with several tools and concepts related to DevOps.
+- If you use Azure services, this book is for you.
 
 ### Overview
 
@@ -191,12 +199,19 @@ tags: [CI/CD, API, unit test, Postman, Newman, Azure pipeline, Static Code Analy
 
 - Chapter 17, DevOps Best Practices
 
-tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault, blue-green, canary release, dark launch, feature flag]
+    This chapter incorporates all the pieces from the other chapters, making it the most comprehensive one. Designing is the most important part of implementation, and this chapter helps to design a DevOps culture. I believe it's worth reading for everyone, regardless of whether they are experts or not. Topics in this chapter:
 
-### Key Features
+    - Automating everything
+    - Choosing the right tool
+    - Writing all your configuration in code
+    - Designing the system architecture
+    - Building a good CI/CD pipeline
+    - Integrating tests
+    - Shifting security left with development-security-operations (DevSecOps)
+    - Monitoring your system
+    - Evolving project management
 
-- F1
-- F2
+tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault, blue-green, canary release, dark launch, feature flag, agile, multidisciplinary]
 
 ### Author's Background
 
@@ -204,8 +219,6 @@ tags: [Security, DevSecOps, Inspec, Chef, hashicorp vault, blue-green, canary re
 - **Expertise:** works as a DevOps engineer. For all his contributions and passion, he has received the Microsoft Most Valuable Professional (MVP) award, which Microsoft has awarded him for the last 6 years and he has been nominated and selected as a Hashicorp Ambassador since 2020.
 - **Other Works:** In 2019, he wrote the first edition of this book, and in 2020, he wrote Terraform Cookbook (Packt Publishing), and also contributes to many public projects, writes blogs and books, and speaks at conferences.
 
-### Personal Experience
+### Personal Ideas
 
 - In this book, Ansible is categorized as a declarative tool, but in most other resources, Ansible is considered to be an imperative tool. In my opinion, Ansible can be used in a declarative way, but it is fundamentally an imperative tool.
-
-### Recommendation
