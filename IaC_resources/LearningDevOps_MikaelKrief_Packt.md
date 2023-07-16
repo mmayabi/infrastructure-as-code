@@ -4,7 +4,8 @@
 **Subtitle** [A comprehensive guide to accelerating DevOps culture adoption with Terraform, Azure DevOps, Kubernetes, and Jenkins]
 **Author:** [Mikael Krief]  
 **Publisher:** [Packt Publishing Ltd]  
-**Edition:** [Second - 2022]  
+**Edition:** [Second - 2022] 
+**pages:** [534] 
 **type** [book]
 
 ### Recommendation
